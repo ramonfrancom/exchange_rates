@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_exchange_prc_diff_day_by_day
+
+  - name: int_exchange_diff_week_by_week
+    columns:
+      - name: week_comparison_text
+        tests:
+          - unique
+          - not_null

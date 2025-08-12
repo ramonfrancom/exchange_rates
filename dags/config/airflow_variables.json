@@ -1,0 +1,22 @@
+{
+    "BASE_DIR": "/root/Development/Airflow",
+    "DATA_DIR": "/root/Development/Airflow/data",
+    "DATA_BKP_DIR": "/root/Development/Airflow/data/backup",
+    "SCRIPTS_DIR": "/root/Development/Airflow/scripts",
+    "DBT_DIR": "/root/Development/Airflow/dbt_models",
+    "LOGS_DIR": "/root/Development/Airflow/logs",
+    "LOGS_SCRIPTS_DIR": "/root/Development/Airflow/logs/Script_logs",
+    "LOGS_ERROR_DIR": "/root/Development/Airflow/logs/errors",
+
+    "EMAIL_DEBUG_LIST": [""],
+
+    "DB_RAW": "RAW_DB",
+    "DB_STAGING": "STAGING_DB",
+    "DB_ADMIN": "ADMIN_DB",
+    "DB_VIEWS": "VIEWS_DB",
+
+    "SCHEMA_DB_RAW_JSON": "JSON",
+    "SCHEMA_DB_RAW_CSV": "CSV",
+
+    "SCHEMA_DB_ADMIN": "ADMIN"
+}
